@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("form input").forEach(function(e){var t=e.parentElement,n=e.getAttribute("name").replace(/([a-z])([A-Z])/g,"$1 $2"),r=n.charAt(0).toUpperCase()+n.slice(1),a=document.createElement("label");a.classList.add("field-label"),a.setAttribute("for",e.id),a.textContent=r,e.setAttribute("placeholder",r),t.insertBefore(a,e)})});
+//# sourceMappingURL=index.896a8efd.js.map
